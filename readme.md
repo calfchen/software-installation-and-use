@@ -41,18 +41,18 @@
 
 **此为只有一个main.cpp的情况，如果有多个.cpp文件，则许添加多个文件，如下所示。**
 
-{
-    "version": "0.1.0",
-    "command": "g++",
-    "isShellCommand": true,
-    "args": [
-        "-g",
-        "${workspaceRoot}/main.cpp",
-        "${workspaceRoot}/main1.cpp",
-        "${workspaceRoot}/main2.cpp"
-    ],
-    "showOutput": "always"
-}
+	{
+	    "version": "0.1.0",
+	    "command": "g++",
+	    "isShellCommand": true,
+	    "args": [
+	        "-g",
+	        "${workspaceRoot}/main.cpp",
+	        "${workspaceRoot}/main1.cpp",
+	        "${workspaceRoot}/main2.cpp"
+	    ],
+	    "showOutput": "always"
+	}
 
 此时，再按Ctrl + Shift + B会生成可执行文件a.out
 

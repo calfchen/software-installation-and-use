@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "command": "g++",
+    "isShellCommand": true,
+    "args": [
+        "-g",
+        "${workspaceRoot}/main.cpp"
+    ],
+    "showOutput": "always"
+}
